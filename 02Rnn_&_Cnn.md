@@ -22,8 +22,7 @@ Cell State Update: Combines the forget and input gate outputs to update the cell
 Output Gate: Controls the current hidden state and final output of the LSTM.
 LSTM Equations:
 # LSTM Equations
-
-
+![back-propogation](images/back_Propogation.png)
 
 Applications of LSTM:
 Text generation (generating text sequences based on previous context)
@@ -49,8 +48,8 @@ Update Gate: Controls how much of the previous hidden state should carry over to
 Reset Gate: Determines how much past information should be forgotten for the current input.
 Hidden State Update: Combines information from the update and reset gates to update the hidden state.
 GRU Equations:
+![back-propogation](images/back_Propogation.png)
 
- 
 Applications of GRU:
 Text-based tasks (like machine translation or language modeling)
 Speech synthesis (generating speech from text)
