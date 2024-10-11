@@ -21,7 +21,8 @@ Input Gate: Decides how much of the new input information should be stored in th
 Cell State Update: Combines the forget and input gate outputs to update the cell state.
 Output Gate: Controls the current hidden state and final output of the LSTM.
 LSTM Equations:
-Forget Gate: 
+ $\`
+ Forget Gate: 
 𝑓
 𝑡
 =
@@ -237,6 +238,7 @@ t
 t
 ​
  )
+ \`$ 
 Applications of LSTM:
 Text generation (generating text sequences based on previous context)
 Machine translation (translating text from one language to another)
