@@ -26,6 +26,7 @@ Activation Function: This function (like ReLU, Sigmoid, or Tanh) introduces non-
 Gradient Descent: A common optimization algorithm used in backpropagation to minimize the loss function. Variations like stochastic gradient descent (SGD), mini-batch gradient descent, and Adam are used to improve performance.
 Learning Rate: A hyperparameter that controls how much to adjust the weights with each iteration.
 </details>
+.......................
 
 1. Convolutional Neural Networks (CNNs)
 CNNs are specialized for processing grid-like data, such as images, where spatial relationships are critical. They are commonly used in computer vision tasks like image classification, object detection, and segmentation.
