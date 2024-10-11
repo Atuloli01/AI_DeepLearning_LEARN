@@ -48,7 +48,7 @@ Update Gate: Controls how much of the previous hidden state should carry over to
 Reset Gate: Determines how much past information should be forgotten for the current input.
 Hidden State Update: Combines information from the update and reset gates to update the hidden state.
 GRU Equations:
-![back-propogation](images/GRU.png)
+![GRU -equation](images/GRU.png)
 
 Applications of GRU:
 Text-based tasks (like machine translation or language modeling)
